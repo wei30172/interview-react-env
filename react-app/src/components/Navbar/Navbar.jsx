@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="flex">
         {/* pc menu */}
         <div className="navbar_menu">
-          <ul>
+          <ul className="flex">
             <li className="cursor-pointer" onClick={() => navigate("/")}>
               Home
             </li>
